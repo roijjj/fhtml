@@ -1,0 +1,60 @@
+/*nav {
+    background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}*/
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+div#table{
+	display: table;
+}
+
+article{
+	background-color: #eee;
+	display: table-row;
+  font-size:  105%;
+   padding: 20px;
+  margin-top: 20px;
+width:75%
+  /*vertical-align: top;*/
+  border: thin dotted;
+}
+aside{
+	display: table-cell;
+  font-size:        105%;
+  padding:          15px;
+  width: 25%;
+  
+    background:gray;
+
+
+}
+
+div#row{
+	/*display:table-row;*/
+}
+section#main{
+	
+	display: table-cell;
+  background:black;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+  width: 75%;
+}
+section#city{
+	
+	display: table-cell;
+  background:white;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+  width: 75%;
+}
