@@ -1,8 +1,41 @@
 <!DOCTYPE html>
 <html>
 <title>travel form</title>
+<link rel="stylesheet" type="text/css" href="travel.css">
 <body>
+<div id="container">
 
+
+<form action="yourthankyoupage.html" method="post">
+<div id="question" >  
+        <p> country: </p>  
+        <p> <input type="text" name="country" required> </p> 
+      </div>  
+<div id="question">  
+        <p> city: </p>  
+        <p> <input type="text" name="city" required> </p> 
+      </div>   
+<div id="question"> 
+       <p>select what season to go: </p> 
+       <p>
+         <select name"dropdown">
+           <option value"1">summer</option>
+           <option value"2">fall</option>
+           <option value"3">winter</option>
+           <option value"4">spring</option>
+          </select>
+        </p>
+     </div> 	
+	  <div id="question">        
+       <p>coment about the location: </p>     
+       <p><textarea name="comments" rows="10" cols="30"></textarea></p>    
+     </div>
+<div id="question">       
+       <p></p>
+       <p> <input type="submit" value="submit">			<input type="reset"></p>   
+    </div> 	 
+</form>
+</div>
 
 </body>
 </html>

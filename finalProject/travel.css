@@ -1,3 +1,7 @@
+
+body{
+	background-color: blue;
+}
 /*nav {
     background-color: #efe5d0;
 	margin: 10px 10px 0px 10px;
@@ -14,31 +18,34 @@ nav ul li {
 }
 div#table{
 	display: table;
+	border-spacing: 10px;
 }
 
 article{
 	background-color: #eee;
-	display: table-row;
+	display: block
   font-size:  105%;
    padding: 20px;
-  margin-top: 20px;
-width:75%
+  margin 20px 0px 20px opx;
+  width:600px;
   /*vertical-align: top;*/
   border: thin dotted;
+  float:left;
 }
 aside{
-	display: table-cell;
+	/*display: table-cell;*/
   font-size:        105%;
   padding:          15px;
-  width: 25%;
-  
+  /*width: 25%;*/
+  margin 0px 10px 0px 2000px;
+  /*float:right;*/
     background:gray;
 
 
 }
 
-div#row{
-	/*display:table-row;*/
+div#rows{
+	display:table-row;
 }
 section#main{
 	
@@ -49,12 +56,27 @@ section#main{
   vertical-align: top;
   width: 75%;
 }
-section#city{
+
+div#container{
+width:800px;
+margin:0px auto auto 0px;
+margin-left:auto;
+margin-right;auto;
+background-color: white;
+ opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+div#question{
+	margin: 25px 0px 25px 50px;
+	padding-bottom; 14px;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+section#table{
 	
-	display: table-cell;
-  background:white;
-  font-size:        105%;
-  padding:          15px;
-  vertical-align: top;
-  width: 75%;
+	float:left;
 }
