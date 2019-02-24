@@ -1,0 +1,167 @@
+
+/*
+this is used on every page.
+*/
+body{
+	 background-image: url("image/3995532_L.png");
+}
+
+/*this styles the header of every page*/
+header{
+	height: 75px;
+	background-color:#333;
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+/*this styles the navagation bar of the web pages*/
+nav {
+    background-color: #333;
+	padding:10px 20px 10px 20px
+	
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+  
+}
+nav a:hover{
+     background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+/*this styles the container of the content for the web-page */
+.container{
+	width:800px;
+	margin:0px auto auto 0px;
+	margin-left:auto;
+	margin-right;auto;
+	background-color: white;
+}
+
+/*this styles main section of the website*/
+.card{
+	background-color: #eee;
+	display: block
+	font-size:  105%;
+	padding: 20px;
+	margin:10px 30px 10px 20px;
+	width: 500px;
+	float:left;
+}
+
+/*this styles the content at the right side of the dream*/
+.aside{
+	font-size:        100%;
+	padding:          1px;
+	margin:10px 20px 20px 580px;
+	background:#eee;
+}
+
+/* this styles the content in the footer of the website */
+footer{
+	clear: both;
+	text-align: center;
+	font-size:75%;
+}
+
+/*this styles the buttons on the web-page*/
+.button{
+	background-color:#333;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	display:block;
+	margin:10px auto 10px;
+ 
+}
+
+/*this styles the picture that is used in the aside tags*/
+.sidepic{
+	height:auto;
+	width: 178px;
+	display: block;
+	margin: 10px 10px 0px;
+ 
+	
+}
+
+
+
+/*tis is t
+
+
+/*this styles the table to have a margin of 10px*/
+table, th, td{
+	margin: 10px 10px 10px 10px;
+ 
+}
+
+
+.table{
+	width: 500px;
+	float:left;
+	 margin:20px 30px 10px 20px;
+}
+
+/*this styles the image to it into the table and centers it in the table*/
+.pic{
+	height:auto;
+	width: 170px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+/*this styles the picture that are user in the article */
+.artpic{
+	height:auto;
+	width: 490px;
+	display: block;
+	margin: 10px auto 0px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+
+
+/*this styles the article of the thank you page*/
+.thankyou{
+	background-color: #eee;
+	display: block
+	font-size:  105%;
+	padding: 20px;
+	margin:10px 30px 10px 20px;
+}
+
+/*this styles the picture on the thankyou.html page*/
+.thankyoupic{
+	height:auto;
+	width: 690px;
+	display: block;
+	margin: 10px auto 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+.formpic{
+	margin:10px 20px 20px 590px;
+	float: right;
+}
+
+

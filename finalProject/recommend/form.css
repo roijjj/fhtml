@@ -1,0 +1,59 @@
+
+
+/*makes the div a into a table */
+.formtable{
+	display: table;
+	border-spacing: 10px;
+	
+}
+/*this create the rows of the table*/
+.rows{display:table-row;}
+
+/* this styles the the right side of the table */
+.formaside{
+	display: table-cell;
+	font-size:        105%;
+	padding:          15px;
+	width: 25%;
+	vertical-align: top;
+}
+/*this styles the form to be the let side of the table */
+.question {
+	display:table-cell;
+	margin: 25px 25px 25px 50px;
+	padding; 30px 20px 20px 20px;
+	width: 75%;
+	vertical-align: top;
+}
+/*this styles the p in the form*/
+p{  margin: 25px 25px 25px 15px;}
+
+
+/*this styles the image that is on the right side of the left column of the table*/
+.formpic{
+	height: 300px;
+	width: auto;
+	float:right;
+	margin:20px auto 20px 10px;
+}
+
+/*this styles the images in the right column of the table
+.sidepic{
+	margin: 10px auto 10px;
+	height:auto;
+	width: 200px;
+	display: block;
+}
+
+/*this styles the submit and reset buttons in the form*/
+.formsubmit{
+	background-color:#333;
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right:10px;
+}
+
