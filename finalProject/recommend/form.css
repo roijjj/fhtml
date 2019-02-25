@@ -2,7 +2,7 @@
 
 /*makes the div a into a table */
 .formtable{
-	display: table;
+	display: table;/*display the div as a table*/
 	border-spacing: 10px;
 	
 }
@@ -47,7 +47,7 @@ p{  margin: 25px 25px 25px 15px;}
 
 /*this styles the submit and reset buttons in the form*/
 .formsubmit{
-	background-color:#333;
+	background-color:#333;/*changes the color of the backgroung*/
 	border: none;
 	color: white;
 	padding: 10px 10px;
