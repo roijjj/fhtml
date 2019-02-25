@@ -34,7 +34,7 @@ nav a:hover{
 }
 
 /*this styles the container of the content for the web-page */
-.container{
+.container{ change this to id
 	width:800px;
 	margin:0px auto auto 0px;/*centers the container in the middle of the page*/
 	margin-left:auto;
