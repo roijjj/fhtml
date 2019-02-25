@@ -8,34 +8,34 @@ body{
 
 /*this styles the header of every page*/
 header{
-	height: 75px;
-	background-color:#333;
-	color: white;
+	height: 75px;/*make the hieght of the header 75px*/
+	background-color:#333;/*change the background color of the header*/
+	color: white;/*change the color of the text*/
 	padding-top: 20px;
 	padding-left: 20px;
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: Impact, Charcoal, sans-serif; /*change the font of the text in the header*/
 }
 /*this styles the navagation bar of the web pages*/
 nav {
-    background-color: #333;
+    background-color: #333;/*change the color of the background of the navagation bar
 	padding:10px 20px 10px 20px
 	
 }
 nav a{
-  color: white;
-  text-decoration: none;
+  color: white;/*change the color of the text of the hyperlink*/
+  text-decoration: none;/*no text decoration*/
   margin: 20px 20px 20px 20px;
   
 }
 nav a:hover{
-     background-color: #ddd;
-  color: black;
+     background-color: #ddd;/*change the color of the background of the hyperlink when you hover over it*/
+  color: black;/*change the text color of the hyperlink when you hover over it*/
   text-decoration: none;
 }
 
 /*this styles the container of the content for the web-page */
 .container{
-	width:800px;
+	width:800px;/*makes the 
 	margin:0px auto auto 0px;
 	margin-left:auto;
 	margin-right;auto;
