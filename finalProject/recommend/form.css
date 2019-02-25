@@ -1,16 +1,16 @@
 
 
 /*makes the div a into a table */
-.formtable{
+.formtable{ make this an id
 	display: table;/*display the div as a table*/
 	border-spacing: 10px;
 	
 }
 /*this create the rows of the table*/
-.rows{display:table-row;}
+.rows{display:table-row;}make this an id
 
 /* this styles the the right side of the table */
-.formaside{
+.formaside{ make id
 	display: table-cell;
 	font-size:        105%;
 	padding:          15px;
@@ -18,7 +18,7 @@
 	vertical-align: top;
 }
 /*this styles the form to be the let side of the table */
-.question {
+.question {make id
 	display:table-cell;
 	margin: 25px 25px 25px 50px;
 	padding; 30px 20px 20px 20px;
