@@ -17,7 +17,7 @@ header{
 }
 /*this styles the navagation bar of the web pages*/
 nav {
-    background-color: #333;/*change the color of the background of the navagation bar
+    background-color: #333;/*change the color of the background of the navagation bar*/
 	padding:10px 20px 10px 20px
 	
 }
@@ -35,50 +35,50 @@ nav a:hover{
 
 /*this styles the container of the content for the web-page */
 .container{
-	width:800px;/*makes the 
-	margin:0px auto auto 0px;
+	width:800px;
+	margin:0px auto auto 0px;/*centers the container in the middle of the page*/
 	margin-left:auto;
 	margin-right;auto;
-	background-color: white;
+	background-color: white;/*makes the background white*/
 }
 
 /*this styles main section of the website*/
 .card{
 	background-color: #eee;
-	display: block
+	display: block/*makes the display block*/
 	font-size:  105%;
 	padding: 20px;
 	margin:10px 30px 10px 20px;
-	width: 500px;
-	float:left;
+	width: 500px;/*makes the width of the card 500pixels wide*/
+	float:left;/*floats it to the left side of the webpage*/
 }
 
 /*this styles the content at the right side of the dream*/
 .aside{
 	font-size:        100%;
 	padding:          1px;
-	margin:10px 20px 20px 580px;
-	background:#eee;
+	margin:10px 20px 20px 580px;/*puts it to the right side of the webpage*/
+	background:#eee;/*changes the color background of the aside*/
 }
 
 /* this styles the content in the footer of the website */
 footer{
 	clear: both;
-	text-align: center;
-	font-size:75%;
+	text-align: center;/*centers the text*/
+	font-size:75%;/*changes the size of the text*/
 }
 
 /*this styles the buttons on the web-page*/
 .button{
-	background-color:#333;
-	border: none;
-	color: white;
+	background-color:#333;/*changes the color of the button
+	border: none;/*makes the button have no border*/
+	color: white;/*makes the text in the button white*/
 	padding: 15px 25px;
-	text-align: center;
+	text-align: center;/*centers the text in the button*/
 	font-size: 16px;
 	cursor: pointer;
 	display:block;
-	margin:10px auto 10px;
+	margin:10px auto 10px;/*centers the button in the parent*/
  
 }
 
