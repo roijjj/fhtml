@@ -84,6 +84,7 @@ footer{
 
 /*this styles the picture that is used in the aside tags*/
 .sidepic{
+	/*changes the width of the image to 178 pixels and automaticly determine the hieght of the image*/
 	height:auto;
 	width: 178px;
 	display: block;
@@ -105,8 +106,8 @@ table, th, td{
 
 
 .table{
-	width: 500px;
-	float:left;
+	width: 500px;/*makes the width of the div 500 pixels*/
+	float:left;/*floats the div to the left of the webpage*/
 	 margin:20px 30px 10px 20px;
 }
 
