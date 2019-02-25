@@ -113,9 +113,11 @@ table, th, td{
 
 /*this styles the image to it into the table and centers it in the table*/
 .pic{
+	/*changes the width of the image to 170 pixels and automaticly determine the hieght of the image*/
 	height:auto;
 	width: 170px;
 	display: block;
+	/*centers the image*/
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -125,9 +127,12 @@ table, th, td{
 
 /*this styles the picture that are user in the article */
 .artpic{
+	
+	/*changes the width of the image to 178 pixels and automaticly determine the hieght of the image*/
 	height:auto;
 	width: 490px;
 	display: block;
+	/*centers the image*/
 	margin: 10px auto 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -139,7 +144,8 @@ table, th, td{
 
 /*this styles the article of the thank you page*/
 .thankyou{
-	background-color: #eee;
+	
+	background-color: #eee;/*change the color of the background*/
 	display: block
 	font-size:  105%;
 	padding: 20px;
@@ -148,9 +154,12 @@ table, th, td{
 
 /*this styles the picture on the thankyou.html page*/
 .thankyoupic{
+
+	/*changes the width of the image to 690 pixels and automaticly determine the hieght of the image*/
 	height:auto;
 	width: 690px;
 	display: block;
+	/*centers the image*/
 	margin: 10px auto 0px;
 	margin-left: auto;
 	margin-right: auto;
