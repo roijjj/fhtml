@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<meta charset="UTF-8">
 	<title>Travel blog</title>
-		<!--links the main.css to this file-->
+	<!--links the main.css to this file-->
 		<link rel="stylesheet" type="text/css" href="main.css">
 
 	</head>
 	<body>
-		<div class="container">
-			<!--this is the header of the web-page-->
+	<!--this is the container for the web-page-->
+		<div id="container">
+		<!--this is the header of the web-page-->
 			<header>
-				<h1>travel blog</h1>
+				<a href="index.html"><h1>Travel blog</h1></a>
 			</header>
-			<!--this makes the navagation bar-->
+			<!--this makes the navigation bar-->
 			<nav>
 				<a href="index.html">Home</a>
 				<a href="photos.html">Photos</a>
 			</nav>
-		<!--these are how you get to the blog posts-->
+		<!--this is the main part of the page-->
 			<article class="card">
 				<img src="image/142516_XL.jpg" alt="hostel" class="artpic">
-				<h3>insert title of article</h3>
+				<h3 class="arttitle">insert title of article</h3>
 				<p> insert date here </p>
-				<!--this button takes the you to the artical -->
+				<!--this button takes the you to the article -->
 				 <button type="button" class="button" onclick="window.location.href='blog/post1.html'">Read More</button>
 			</article>
 			
 			<article class="card">
 				<img src="image/chris-barbalis-1233609-unsplash.jpg" alt="sunset" class="artpic">
-				<h3>insert title of article</h3>
+				<h3 class="arttitle">insert title of article</h3>
 				<p> insert date here </p>
 				 <button type="button" class="button" onclick="window.location.href='blog/post2.html'">Read More</button>
 			</article>
-		
+		<!--this is the contents that are on the right side of the page-->
 			<aside class="aside">
-				<img src="image/away-4002076.jpg" alt="Cinque Terre" class="sidepic">
+				<img src="image/away-4002076.jpg" alt="forrest" class="sidepic">
 				<h2>suggest a travel destination here. </h2>
+				<!--this button takes the you to the travel recommendation form -->
 				<button type="button" class="button" onclick="window.location.href='recommend/travelform.html'">click here</button>
 			</aside>
+			
 			<footer>
-			cody kirkland final project
+			Cody Kirkland final project
 			</footer>
 		</div>
 	</body>

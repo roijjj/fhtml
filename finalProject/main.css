@@ -4,6 +4,7 @@ this is used on every page.
 */
 body{
 	 background-image: url("image/3995532_L.png");
+	 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /*this styles the header of every page*/
@@ -15,6 +16,10 @@ header{
 	padding-left: 20px;
 	font-family: Impact, Charcoal, sans-serif; /*change the font of the text in the header*/
 }
+header a{
+	text-decoration: none;/*no text decoration*/
+	color: white;/*change the color of the text*/
+}
 /*this styles the navagation bar of the web pages*/
 nav {
     background-color: #333;/*change the color of the background of the navagation bar*/
@@ -22,7 +27,7 @@ nav {
 	
 }
 nav a{
-  color: white;/*change the color of the text of the hyperlink*/
+  color: white;/*change the color of the text of the hyper-link*/
   text-decoration: none;/*no text decoration*/
   margin: 20px 20px 20px 20px;
   
@@ -30,28 +35,30 @@ nav a{
 nav a:hover{
      background-color: #ddd;/*change the color of the background of the hyperlink when you hover over it*/
   color: black;/*change the text color of the hyperlink when you hover over it*/
-  text-decoration: none;
+  text-decoration: none;/*no text decoration*/
 }
 
 /*this styles the container of the content for the web-page */
-.container{ change this to id
-	width:800px;
-	margin:0px auto auto 0px;/*centers the container in the middle of the page*/
-	margin-left:auto;
-	margin-right;auto;
+#container{
+	width:800px;/*makes the container 800px wide*/
+	margin:0px auto 0px;/*centers the container in the middle of the page*/
 	background-color: white;/*makes the background white*/
 }
 
 /*this styles main section of the website*/
 .card{
-	background-color: #eee;
+	background-color: #eee;/*change the background of the card*/
 	display: block/*makes the display block*/
-	font-size:  105%;
+	font-size:  100%;
 	padding: 20px;
 	margin:10px 30px 10px 20px;
-	width: 500px;/*makes the width of the card 500pixels wide*/
+	width: 500px;/*makes the container 800px wide*/
 	float:left;/*floats it to the left side of the webpage*/
 }
+
+.arttitle{
+	 font-family: Tahoma, Verdana, Segoe, sans-serif
+	}
 
 /*this styles the content at the right side of the dream*/
 .aside{
@@ -59,24 +66,27 @@ nav a:hover{
 	padding:          1px;
 	margin:10px 20px 20px 580px;/*puts it to the right side of the webpage*/
 	background:#eee;/*changes the color background of the aside*/
+	font-family: Consolas, monaco, monospace;
 }
+
 
 /* this styles the content in the footer of the website */
 footer{
-	clear: both;
+	clear: both;/*nothing can overlap the footer*/
 	text-align: center;/*centers the text*/
 	font-size:75%;/*changes the size of the text*/
 }
 
 /*this styles the buttons on the web-page*/
 .button{
-	background-color:#333;/*changes the color of the button
+	background-color:#333;/*changes the color of the button*/
 	border: none;/*makes the button have no border*/
 	color: white;/*makes the text in the button white*/
 	padding: 15px 25px;
+	font-family: Georgia, Times, "Times New Roman", serif;
 	text-align: center;/*centers the text in the button*/
 	font-size: 16px;
-	cursor: pointer;
+	cursor: pointer;/*change the cursor to a pointer*/
 	display:block;
 	margin:10px auto 10px;/*centers the button in the parent*/
  
@@ -107,8 +117,8 @@ table, th, td{
 
 .table{
 	width: 500px;/*makes the width of the div 500 pixels*/
-	float:left;/*floats the div to the left of the webpage*/
-	 margin:20px 30px 10px 20px;
+	float:left;/*floats the div to the left of the web-page*/
+	 margin:10px 20px 10px 10px;;
 }
 
 /*this styles the image to it into the table and centers it in the table*/
@@ -117,7 +127,7 @@ table, th, td{
 	height:auto;
 	width: 170px;
 	display: block;
-	/*centers the image*/
+	/*centers the image in the middle of the parent*/
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -127,15 +137,13 @@ table, th, td{
 
 /*this styles the picture that are user in the article */
 .artpic{
-	
-	/*changes the width of the image to 178 pixels and automaticly determine the hieght of the image*/
+	/*changes the width of the image to 490 pixels and automaticly determine the hieght of the image*/
 	height:auto;
 	width: 490px;
 	display: block;
-	/*centers the image*/
+	/*centers the image in the middle of the parent*/
 	margin: 10px auto 0px;
-	margin-left: auto;
-	margin-right: auto;
+	
 	
 }
 
@@ -144,34 +152,23 @@ table, th, td{
 
 /*this styles the article of the thank you page*/
 .thankyou{
-	
 	background-color: #eee;/*change the color of the background*/
 	display: block
-	font-size:  105%;
+	font-size:  100%;
 	padding: 20px;
 	margin:10px 30px 10px 20px;
 }
 
 /*this styles the picture on the thankyou.html page*/
 .thankyoupic{
-
 	/*changes the width of the image to 690 pixels and automaticly determine the hieght of the image*/
 	height:auto;
 	width: 690px;
 	display: block;
-	/*centers the image*/
+	/*centers the image in the middle of the parent*/
 	margin: 10px auto 0px;
-	margin-left: auto;
-	margin-right: auto;
+
 }
 
-
-
-
-
-.formpic{
-	margin:10px 20px 20px 590px;
-	float: right;
-}
 
 

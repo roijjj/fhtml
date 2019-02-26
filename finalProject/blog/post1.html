@@ -2,33 +2,38 @@
 
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>title of the article </title>
+		<!--links the main.css to this file-->
 		<link rel="stylesheet" type="text/css" href="../main.css">
 	</head>
 	<body>
-		<div class="container">
+		<!--this is the container for the web-page-->
+		<div id="container">
+			<!--this is the header of the web-page-->
 			<header >
-				<h1>travel blog</h1>
+				<a href="../index.html"><h1>Travel blog</h1></a>
 			</header>
+			<!--this makes the navigation bar-->
 			<nav>
 				<a href="../index.html">Home</a>
 				<a href="../photos.html">Photos</a>
 			</nav>
-			
 			<!--this is the blog post-->
 			<article class="card">
 				<img src="../image/142516_XL.jpg" alt="hostel" class="artpic">
-				<h1>insert article title</h1>
+				<h2 class="arttitle">insert article title</h2>
 				<p> this is where the person would put the blog post they have written. </p>
 			</article>
-				
+			<!--this is the contents that are on the right side of the page-->
 			<aside class="aside">
 				<img src="../image/away-4002076.jpg" alt="forest" class="sidepic">
 				<h2>suggest a travel destination here. </h2>
-				<button type="button" class="button" onclick="window.location.href='recommend/travelform.html'">click here</button>
+				<!--this button takes the you to the travel recommendation form -->
+				<button type="button" class="button" onclick="window.location.href='../recommend/travelform.html'">click here</button>
 			</aside>
 			<footer>
-				cody kirkland final project
+				Cody Kirkland final project
 			</footer>
 		</div>
 	</body>

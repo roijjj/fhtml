@@ -2,31 +2,35 @@
 
 <html>
 	<head>
+	<meta charset="UTF-8">
 		<title>Thank your</title>
+		<!--links the main.css to this file-->
 		<link rel="stylesheet" type="text/css" href="../main.css">
 	</head>
 	<body>
-		<div class="container">
+		<!--this is the container for the web-page-->
+		<div id="container">
+			<!--this is the header of the web-page-->
 			<header>
-				<h1>travel blog</h1>
+				<a href="../index.html"><h1>Travel blog</h1></a>
 			</header>
+			<!--this makes the navigation bar-->
 			<nav>
-				
 				<a href="../index.html">Home</a>
 				<a href="../photos.html">Photos</a>
 			</nav>
-			<!--this displays a thank you message for people how recomended a place to travel-->
+			<!--this displays a thank you message for people how recommended a place to travel-->
 			<article  class="thankyou">
 				<img src="../image/jezael-melgoza-748008-unsplash.jpg" alt="japan" class="thankyoupic">
-				<h3>THANK YOU</h3>
+				<h3 class="arttitle">THANK YOU</h3>
 				<p> thank you for your recommendation. we really appreciate the places people suggest we go. </p>
 				<!--this button takes you to the home page-->
 				<button type="button" class="button" onclick="window.location.href= '../index.html'">Home page</button>
-				<!--the button takes you back to the recemondation page to suggest another place to visit-->
-				<button type="button" class="button" onclick="window.location.href= 'travelform.html'">suggest another</button>
+				<!--the button takes you back to the recommendation page to suggest another place to visit-->
+				<button type="button" class="button" onclick="window.location.href= 'travelform.html'">Suggest another</button>
 			</article>
 			<footer>
-				cody kirkland final project
+				Cody Kirkland final project
 			</footer>
 		</div>
 	</body>

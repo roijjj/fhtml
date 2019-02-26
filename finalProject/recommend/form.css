@@ -1,33 +1,33 @@
 
 
 /*makes the div a into a table */
-.formtable{ make this an id
+#formtable{
 	display: table;/*display the div as a table*/
 	border-spacing: 10px;
 	
 }
 /*this create the rows of the table*/
-.rows{display:table-row;}make this an id
+#rows{display:table-row;}
 
 /* this styles the the right side of the table */
-.formaside{ make id
-	display: table-cell;
-	font-size:        105%;
+#formaside{
+	display: table-cell;/*display as a table cell*/
+	font-size:        100%;
 	padding:          15px;
 	width: 25%;
-	vertical-align: top;
+	vertical-align: top;/*vertical-align the question*/
 }
 /*this styles the form to be the let side of the table */
-.question {make id
-	display:table-cell;
+#question {
+	display:table-cell;/*display as a table cell*/
 	margin: 25px 25px 25px 50px;
 	padding; 30px 20px 20px 20px;
 	width: 75%;
-	vertical-align: top;
+	vertical-align: top;/*vertical-align the question*/
 }
-/*this styles the p in the form*/
-p{  margin: 25px 25px 25px 15px;}
 
+/*this styles the p in the form*/
+.formtext{  margin: 25px 25px 25px 15px;}
 
 /*this styles the image that is on the right side of the left column of the table*/
 .formpic{
@@ -47,7 +47,7 @@ p{  margin: 25px 25px 25px 15px;}
 
 /*this styles the submit and reset buttons in the form*/
 .formsubmit{
-	background-color:#333;/*changes the color of the backgroung*/
+	background-color:#333;
 	border: none;
 	color: white;
 	padding: 10px 10px;
