@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<!--this is the page to suggest a place to travel to-->
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Travel form</title>
+		<!--links main.css and form.css to this file-->
+		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link rel="stylesheet" type="text/css" href="form.css">
+	</head>
+	<body>
+		<!--this is the container for the web page-->
+		<div id="container">
+			<!--this is the header of the web page-->
+			<header>
+				<a href="../index.html"><h1>Travel blog</h1></a>
+			</header>
+			<!--this makes the navigation bar-->
+			<nav>
+				<a href="../index.html">Home</a>
+				<a href="../photos.html">Photos</a>
+			</nav>
+			<!--makes the layout of the web page a table-->
+			<div id="formtable">
+				<div id="rows">
+					<!--this is where the user will recommend places to visit-->
+					<form action="thank_you.html" method="get" id="question">
+						<img src="../image/buildings-car-city-1647120.jpg" alt="taxi cab" class="formpic">
+						<h3 class="arttitle formtext">travel recommendation form</h3>
+						
+						<!--asks the user to enter the country.-->
+						<p class="formtext"> Country: </p>  
+						<p class="formtext"> <input type="text" name="country" required> </p> 
+							
+						<!--asks the user to enter the city.-->
+						<p class="formtext"> City: </p>  
+						<p class="formtext"> <input type="text" name="city" required> </p> 
+						
+						<!--the user will pick a season in the drop down menu.-->
+						<p class="formtext">Select what season to go: </p> 
+						<p class="formtext">
+							<select name="season">
+								<option value="summer">summer</option>
+								<option value="fall">fall</option>
+								<option value="winter">winter</option>
+								<option value="spring">spring</option>
+							</select>
+						</p>
+						<!--ask for more information on what to do when you are there-->
+						<p class = "formtext">Comment about the location: </p>     
+						<p class = "formtext"><textarea name="comments" rows="10" cols="65"></textarea></p>    
+							  
+						<p></p>
+						<p class="formtext"> 
+							<!--submit the form-->	
+							<input type="submit" value="submit" class="formsubmit">		
+							<!--reset all the elements in the form-->
+							<input type="reset" class="formsubmit">
+						</p>   
+						
+					</form>
+					<!--this is the content that is on the right side of the page.-->
+					<aside id="formaside">
+						<img src="../image/ancient-architecture-asia-161247.jpg" alt="ancient architecture asia" class="sidepic">
+						<img src="../image/architecture-bridge-buildings-427679.jpg" alt="bridge" class="sidepic">
+						<img src="../image/bamboo-city-container-634009.jpg" alt="bamboo city container" class="sidepic">
+					</aside>
+				</div>
+			</div>
+			<footer>
+				Cody Kirkland final project
+			</footer>
+		</div>
+	</body>
+</html>

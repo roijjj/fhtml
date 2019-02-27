@@ -1,43 +1,51 @@
 <!DOCTYPE html>
+<!--this is the home page of the website-->
 <html>
-<head>
-<title>travel blog</title>
-    <link rel="stylesheet" type="text/css" href="travel.css">
+	<head>
+	<meta charset="UTF-8">
+	<title>Travel blog</title>
+	<!--links main.css to this file-->
+		<link rel="stylesheet" type="text/css" href="main.css">
 
-</head>
-<body>
-	<header>
-		<h1>travel blog</h1>
-	</header>
-	<nav>
-		<ul>
-			<li class="selected"><a href="index.html">Home</a></li>
-			<li class="selected"><a href="city.html">Travel Blog</a></li>
-		</ul>
-		<a href="index.html">Home</a>
-		<a href="cityvisited.html">Travel Blog</a>
-	</nav>
-	
-	<div id="table">
-	<div id="rows">
-	<section id="main">
-		<section id="city">
-			<h3>insert city</h3>
-			<p> insert discribtion here</p>
-		</section>
-		<section id="city">
-			<h3>insert city</h3>
-			<p> insert discribtion here</p>
-		</section id="city">
-		<a href="city/city3.html"><section>
-			<h3>insert city</h3>
-			<p> insert discribtion here</p>
-		</section></a>
-	</section>
-	<aside>
-		<h2>if you want to suggest a city to travel to<a href="travelform.html"> click here.</a> </h2>
-	</aside>
-	</div>
-	</div>
-</body>
+	</head>
+	<body>
+	<!--this is the container for the web page-->
+		<div id="container">
+		<!--this is the header of the web page-->
+			<header>
+				<a href="index.html"><h1>Travel blog</h1></a>
+			</header>
+			<!--this makes the navigation bar-->
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="photos.html">Photos</a>
+			</nav>
+		<!--this is the main part of the page-->
+			<article class="card">
+				<img src="image/142516_XL.jpg" alt="hostel" class="artpic">
+				<h3 class="arttitle">insert title of article</h3>
+				<p> insert date here </p>
+				<!--this button takes the you to the article -->
+				 <button type="button" class="button" onclick="window.location.href='blog/post1.html'">Read More</button>
+			</article>
+			
+			<article class="card">
+				<img src="image/chris-barbalis-1233609-unsplash.jpg" alt="sunset" class="artpic">
+				<h3 class="arttitle">insert title of article</h3>
+				<p> insert date here </p>
+				 <button type="button" class="button" onclick="window.location.href='blog/post2.html'">Read More</button>
+			</article>
+			<!--this is the content that is on the right side of the page.-->
+			<aside class="aside">
+				<img src="image/away-4002076.jpg" alt="forest" class="sidepic">
+				<h2>Suggest a travel destination here. </h2>
+				<!--this button takes the you to the travel recommendation form -->
+				<button type="button" class="button" onclick="window.location.href='recommend/travelform.html'">Click here</button>
+			</aside>
+			
+			<footer>
+				Cody Kirkland final project
+			</footer>
+		</div>
+	</body>
 </html>
