@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!--this is the thank you page that is displayed after the user
+	submits the travel recommendation form-->
+
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Thank you</title>
+		<!--links main.css to this file-->
+		<link rel="stylesheet" type="text/css" href="../main.css">
+	</head>
+	<body>
+		<!--this is the container for the web-page-->
+		<div id="container">
+			<!--this is the header of the web-page-->
+			<header>
+				<a href="../index.html"><h1>Travel blog</h1></a>
+			</header>
+			<!--this makes the navigation bar-->
+			<nav>
+				<a href="../index.html">Home</a>
+				<a href="../photos.html">Photos</a>
+			</nav>
+			<!--this displays a thank you message for people who recommended a place to travel-->
+			<section  class="thankyou">
+				<img src="../image/jezael-melgoza-748008-unsplash.jpg" alt="japan" class="thankyoupic">
+				<h3 class="arttitle">THANK YOU</h3>
+				<p> Thank you for your recommendation. we really appreciate the places people suggest we go. </p>
+				<!--this button takes you to the home page-->
+				<button type="button" class="button" onclick="window.location.href= '../index.html'">Home page</button>
+				<!--the button takes you back to the recommendation page to suggest another place to visit-->
+				<button type="button" class="button" onclick="window.location.href= 'travelform.html'">Suggest another</button>
+			</section>
+			<footer>
+				Cody Kirkland final project
+			</footer>
+		</div>
+	</body>
+</html>

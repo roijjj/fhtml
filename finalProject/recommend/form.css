@@ -1,0 +1,53 @@
+/* ==========================================================================
+   this styles the travelform.html file.
+   ========================================================================== */
+
+/*makes the div a into a table */
+#formtable{
+	display: table;/*display the div as a table*/
+	border-spacing: 10px;
+	
+}
+/*this create the rows of the table*/
+#rows{display:table-row;}
+
+/* this styles the the right side of the table */
+#formaside{
+	display: table-cell;/*display as a table cell*/
+	font-size:        100%;
+	padding:          15px;
+	width: 25%;
+	vertical-align: top;/*vertical-align the question*/
+}
+/*this styles the form to be the let side of the table */
+#question {
+	display:table-cell;/*display as a table cell*/
+	margin: 25px 25px 25px 50px;
+	padding; 30px 20px 20px 20px;
+	width: 75%;
+	vertical-align: top;/*vertical-align the question*/
+}
+
+/*this styles the text in the form*/
+.formtext{  margin: 25px 25px 25px 15px;}
+
+/*this styles the image that is on the right side of the left column of the table*/
+.formpic{
+	height: 300px;
+	width: auto;
+	float:right;
+	margin:20px auto 20px 10px;
+}
+
+/*this styles the submit and reset buttons in the form*/
+.formsubmit{
+	background-color:#333;/*changes the color of the button*/
+	border: none;/*makes the button have no border*/
+	color: white;/*makes the text in the button white*/
+	padding: 10px 10px;
+	text-align: center;/*centers the text in the button*/
+	font-size: 16px;
+	cursor: pointer;/*change the cursor to a pointer*/
+	margin-right:10px;
+}
+
