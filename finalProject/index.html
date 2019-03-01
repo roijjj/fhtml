@@ -18,27 +18,31 @@
 			<!--this makes the navigation bar-->
 			<nav>
 				<a href="index.html">Home</a>
-				<a href="photos.html">Photos</a>
+				<a href="locations.html">Locations</a>
 			</nav>
 		<!--this is the main part of the page-->
-			<article class="card">
-				<img src="image/142516_XL.jpg" alt="hostel" class="artpic">
-				<h3 class="arttitle">insert title of article</h3>
-				<p> insert date here </p>
-				<!--this button takes the you to the article -->
-				 <button type="button" class="button" onclick="window.location.href='blog/post1.html'">Read More</button>
-			</article>
-			
-			<article class="card">
-				<img src="image/chris-barbalis-1233609-unsplash.jpg" alt="sunset" class="artpic">
-				<h3 class="arttitle">insert title of article</h3>
-				<p> insert date here </p>
-				 <button type="button" class="button" onclick="window.location.href='blog/post2.html'">Read More</button>
-			</article>
+			<section id="main">
+				<article class="card">
+					<img src="image/142516_XL.jpg" alt="hostel" class="artpic">
+					<h3 class="arttitle">insert title of article</h3>
+					<time datetime="2019-03-2 12:48">insert date here</time>
+					<!--this button takes the you to the article -->
+					 <button type="button" class="button" onclick="window.location.href='blog/post1.html'">Read More</button>
+				</article>
+				
+				<article class="card">
+				
+					<img src="image/chris-barbalis-1233609-unsplash.jpg" alt="sunset" class="artpic">
+					<h3 class="arttitle">insert title of article</h3>
+					<time datetime="2019-03-1 12:48">insert date here</time>
+					<!--this button takes the you to the article -->
+					 <button type="button" class="button" onclick="window.location.href='blog/post2.html'">Read More</button>
+				</article>
+			</section>
 			<!--this is the content that is on the right side of the page.-->
 			<aside class="aside">
 				<img src="image/away-4002076.jpg" alt="forest" class="sidepic">
-				<h2>Suggest a travel destination here. </h2>
+				<h2 id="sidetext">Suggest a travel destination here. </h2>
 				<!--this button takes the you to the travel recommendation form -->
 				<button type="button" class="button" onclick="window.location.href='recommend/travelform.html'">Click here</button>
 			</aside>
