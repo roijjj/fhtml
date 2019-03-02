@@ -17,6 +17,7 @@ header{
 	padding-left: 20px;
 	font-family: Impact, Charcoal, sans-serif; /*change the font of the text in the header*/
 }
+
 header a{
 	text-decoration: none;/*no text decoration*/
 	color: white;/*change the color of the text*/
@@ -28,13 +29,13 @@ nav {
 	
 }
 nav a{
-  color: white;/*change the color of the hyper-link*/
+  color: white;/*change the color of the text in the hyper-link*/
   text-decoration: none;/*no text decoration*/
   margin: 20px 20px 20px 20px;
   
 }
 nav a:hover{
-     background-color: #ddd;/*change the color of the hyper-link's background when you hover over it*/
+  background-color: #ddd;/*change the color of the hyper-link's background when you hover over it*/
   color: black;/*change the text color of the hyper-link when you hover over it*/
   text-decoration: none;/*no text decoration*/
 }
@@ -53,30 +54,6 @@ footer{
 	font-size:75%;/*changes the size of the text*/
 }
 
-
-
-/* ==========================================================================
-   this is used on index.html,post1.html,and post2.html.
-   ========================================================================== */
-
-
-/*this styles the cards in the main section of the web page*/
-.card{
-	background-color: #eee;/*change the background of the card*/
-	display: block/*makes the display block*/
-	font-size:  100%;
-	padding: 20px;
-	margin:10px 0px 10px 0px;
-	/*width: 500px;makes the container 500px wide*/
-	/*float:left;floats it to the left side of the web page*/
-}
-
-/*style the title of the blog posts*
-.arttitle{
-	 font-family: Tahoma, Verdana, Segoe, sans-serif
-	}
-
-
 /* ==========================================================================
    this is used on on every page except thank_you.html and travelform.html pages.
    ========================================================================== */
@@ -90,14 +67,15 @@ footer{
 	
 	
 }
-/*style the title of the blog posts*/
+/*this styles the text in aside*/
 #sidetext{
 	margin-left:10px;
 	font-family: Consolas, monaco, monospace;
 }
-/*this makes the main part of the web page. this is where the blog posts will be shown*/
+
+/*this makes the main part of the web page.*/
 #main{
-	background-color: white;/*change the background of the card*/
+	background-color: white;/*change the background of the section*/
 	margin:0px 0px 20px 20px;
 	width: 500px;/*makes the container 500px wide*/
 	float:left;/*floats it to the left side of the web page*/
@@ -106,53 +84,60 @@ footer{
 
 
 
-
-
-
-
-
-/*this styles the buttons on the web page*/
-.button{
-	background-color:#333;/*changes the color of the button*/
-	border: none;/*makes the button have no border*/
-	color: white;/*makes the text in the button white*/
-	padding: 15px 25px;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	text-align: center;/*centers the text in the button*/
-	font-size: 16px;
-	cursor: pointer;/*change the cursor to a pointer*/
-	display:block;
-	margin:10px auto 10px;/*centers the button in the parent*/
- 
-}
-
 /* ==========================================================================
-   this styles the photo.html file
+   this is used on index.html,post1.html,and post2.html.
    ========================================================================== */
 
-/*this styles the table to have a margin of 10px*/
- table,th, td{
+/*this styles the cards in the main section of the web page*/
+.card{
+	background-color: #eee;/*change the background of the card*/
+	display: block/*makes the display block*/
+	font-size:  100%;
+	padding: 20px;
+	margin:10px 0px 10px 0px;
+}
+
+/*style the title of the blog posts*/
+.arttitle{
+	 font-family: Tahoma, Verdana, Segoe, sans-serif
+	}
+	
+	/*this styles the dates on the web page*/
+time{
+	font-size:75%;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   this styles the locations.html file
+   ========================================================================== */
+
+/*this styles the table */
+ table, td{
 	margin: 10px 5px 10px 5px;
 	border: 2px solid #333;
-  border-collapse: collapse;
+	border-collapse: collapse;
 }
 
-/*the styles the table header*/
+/*this styles the table header*/
 th {
 	
-  background-color: #333;
-  color: #fff;
+  background-color: #333;/*the background of the table header will be gray*/
+  color: #fff;/*the text of the table header will be white*/
 }
 
-/*every even row of the table will be light gray*/
+
+/*every even row of the table will be white*/
 tr:nth-child(even) {
   
   background-color: #fff;
 }
-/*every even row of the table will be white*/
+/*every odd row of the table will be light gray*/
 tr:nth-child(odd) {
-  background-color: #fff;
-  
   background-color: #eee;
 }
 
@@ -175,23 +160,9 @@ tr:nth-child(odd) {
    ========================================================================== */
 
 
-/*this styles the images in the table*/
-.pic{
-	/*changes the width of the image to 160 pixels and automatically determine the height of the image*/
-	height:auto;
-	width: 160px;
-	display: block;
-	/*centers the image in the middle of the parent*/
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-
-
 /*this styles the picture that are used in the article */
 .artpic{
-	/*changes the width of the image to 490 pixels and automatically determine the height of the image*/
+	/*changes the width of the image to 460 pixels and automatically determine the height of the image*/
 	height:auto;
 	width: 460px;
 	display: block;
@@ -203,7 +174,7 @@ tr:nth-child(odd) {
 
 /*this styles the picture that is used in the aside tags*/
 .sidepic{
-	/*changes the width of the image to 178 pixels and automatically determine the height of the image*/
+	/*changes the width of the image to 218 pixels and automatically determine the height of the image*/
 	height:auto;
 	width: 218px;
 	display: block;
@@ -223,6 +194,44 @@ tr:nth-child(odd) {
 
 }
 
+/*this styles the image that is on the right side of the left column of the table*/
+.formpic{
+	height: 300px;
+	width: auto;
+	float:right;
+	margin:20px auto 20px 10px;
+}
+
+
+/* ==========================================================================
+   this styles all the buttons on the web pages.
+   ========================================================================== */
+
+/*this styles the buttons on the web page*/
+.button{
+	background-color:#333;/*changes the color of the button*/
+	border: none;/*makes the button have no border*/
+	color: white;/*makes the text in the button white*/
+	padding: 15px 25px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-align: center;/*centers the text in the button*/
+	font-size: 16px;
+	cursor: pointer;/*change the cursor to a pointer*/
+	display:block;
+	margin:10px auto 10px;/*centers the button in the parent*/
+}
+
+/*this styles the submit and reset buttons in the form*/
+.formsubmit{
+	background-color:#333;/*changes the color of the button*/
+	border: none;/*makes the button have no border*/
+	color: white;/*makes the text in the button white*/
+	padding: 10px 10px;
+	text-align: center;/*centers the text in the button*/
+	font-size: 16px;
+	cursor: pointer;/*change the cursor to a pointer*/
+	margin-right:10px;
+}
 
 
 

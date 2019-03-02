@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 
-<!--this page shows a table of images--> 
+<!--this page shows a table of locations--> 
 
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Travel photos</title>
+		<title>Locations traveled</title>
 		<!--links main.css to this file-->
 		<link rel="stylesheet" type="text/css" href="main.css">
-	 </head>
+	</head>
 	<body>
 		<!--this is the container for the web page-->
 		<div id="container">
@@ -28,30 +28,26 @@
 				<table>
 					 <tr>
 						<th>location</th>
-						<th>population</th> 
+						<th>season</th> 
 						<th>climate</th>
-						<!--<th>description</th>-->
 					  </tr>
 					<tr>
-						<!--when the user clicks on an name of the city it will take them to the blog post-->
+						<!--when the user clicks on a name of the city it will take them to the blog post-->
 						<td><a href="blog/post1.html">insert name of location</a></td>
-						<td>insert population here</td>
+						<td>insert season here</td>
 						<td>insert climate of location</td>
-						<!--<td>insert short description of the area</td>-->
 					</tr>
 					<tr>
-						<<!--when the user clicks on an image it will load the original size image-->
 						<td><a href="blog/post2.html">insert name of location</a></td>
-						<td>insert population here</td>
+						<td>insert season here</td>
 						<td>insert climate of location</td>
-						<!--<td>insert short description of the area</td>-->
 					</tr>
 				</table>
 			</section>
 			<!--this is the content that is on the right side of the page.-->
 			<aside class="aside">
 				<img src="image/away-4002076.jpg" alt="forest" class="sidepic">
-				<h2>Suggest a travel destination here.</h2>
+				<h2 id="sidetext">Suggest a travel destination here.</h2>
 				<!--this button takes the you to the travel recommendation form -->
 				<button type="button" class="button" onclick="window.location.href='recommend/travelform.html'">Click here</button>
 			</aside>
