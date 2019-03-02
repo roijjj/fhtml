@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!--this page shows a table of images--> 
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Travel photos</title>
+		<!--links main.css to this file-->
+		<link rel="stylesheet" type="text/css" href="main.css">
+	 </head>
+	<body>
+		<!--this is the container for the web page-->
+		<div id="container">
+			<!--this is the header of the web page-->
+			<header>
+				<a href="index.html"><h1>Travel blog</h1></a>
+			</header>
+			<!--this makes the navigation bar-->
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="locations.html">Locations</a>
+			</nav>
+			
+			<!--this is the container for the table-->
+			<section id="main">
+			<!--this is a table of images-->
+				<table>
+					 <tr>
+						<th>location</th>
+						<th>population</th> 
+						<th>climate</th>
+						<!--<th>description</th>-->
+					  </tr>
+					<tr>
+						<!--when the user clicks on an image it will load the original size image-->
+						<td><a href="blog/post1.html">insert name of location</a></td>
+						<td>insert population here</td>
+						<td>insert climate of location</td>
+						<!--<td>insert short description of the area</td>-->
+					</tr>
+					<tr>
+						<<!--when the user clicks on an image it will load the original size image-->
+						<td><a href="blog/post2.html">insert name of location</a></td>
+						<td>insert population here</td>
+						<td>insert climate of location</td>
+						<!--<td>insert short description of the area</td>-->
+					</tr>
+				</table>
+			</section>
+			<!--this is the content that is on the right side of the page.-->
+			<aside class="aside">
+				<img src="image/away-4002076.jpg" alt="forest" class="sidepic">
+				<h2>Suggest a travel destination here.</h2>
+				<!--this button takes the you to the travel recommendation form -->
+				<button type="button" class="button" onclick="window.location.href='recommend/travelform.html'">Click here</button>
+			</aside>
+			<footer>
+				Cody Kirkland final project
+			</footer>
+		</div>
+	</body>
+</html>
