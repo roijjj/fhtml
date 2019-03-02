@@ -59,7 +59,8 @@ footer{
    this is used on index.html,post1.html,and post2.html.
    ========================================================================== */
 
-/*this styles the main cards of the web page*/
+
+/*this styles the cards in the main section of the web page*/
 .card{
 	background-color: #eee;/*change the background of the card*/
 	display: block/*makes the display block*/
@@ -70,7 +71,7 @@ footer{
 	/*float:left;floats it to the left side of the web page*/
 }
 
-
+/*style the title of the blog posts*
 .arttitle{
 	 font-family: Tahoma, Verdana, Segoe, sans-serif
 	}
@@ -89,11 +90,12 @@ footer{
 	
 	
 }
-
+/*style the title of the blog posts*/
 #sidetext{
 	margin-left:10px;
 	font-family: Consolas, monaco, monospace;
 }
+/*this makes the main part of the web page. this is where the blog posts will be shown*/
 #main{
 	background-color: white;/*change the background of the card*/
 	margin:0px 0px 20px 20px;
@@ -135,7 +137,7 @@ footer{
   border-collapse: collapse;
 }
 
-/*header will be Grey*/
+/*the styles the table header*/
 th {
 	
   background-color: #333;
