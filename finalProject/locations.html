@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!--this page shows a table of locations--> 
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Locations traveled</title>
+		<!--links main.css to this file-->
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<!--this is the container for the web page-->
+		<div id="container">
+			<!--this is the header of the web page-->
+			<header>
+				<h1><a href="index.html">Travel blog</a></h1>
+			</header>
+			<!--this makes the navigation bar-->
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="locations.html">Locations</a>
+			</nav>
+			
+			<!--this is the container for the table-->
+			<section id="main">
+			<!--this is a table of locations that has a blog post about it-->
+				<table>
+					<tr>
+						<th>location</th>
+						<th>season</th> 
+						<th>climate</th>
+					</tr>
+					<tr>
+						<!--when the user clicks on a name of the city it will take them to the blog post-->
+						<td><a href="blog/post1.html">insert name of location</a></td>
+						<td>insert season here</td>
+						<td>insert climate of location</td>
+					</tr>
+					<tr>
+						<td><a href="blog/post2.html">insert name of location</a></td>
+						<td>insert season here</td>
+						<td>insert climate of location</td>
+					</tr>
+				</table>
+			</section>
+			<!--this is the content that is on the right side of the page.-->
+			<aside class="aside">
+				<img src="image/away-4002076.jpg" alt="forest" class="sidepic">
+				<h2 id="sidetext">Suggest a travel destination here.</h2>
+				<!--this button takes the you to the travel recommendation form -->
+				<button type="button" class="button" onclick="window.location.href='recommend/travelform.html'">Click here</button>
+			</aside>
+			<footer>
+				Cody Kirkland final project
+			</footer>
+		</div>
+	</body>
+</html>
